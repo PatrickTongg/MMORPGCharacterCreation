@@ -50,9 +50,9 @@ namespace RpgCharaterCreation
         public DwarvenAbilities()
         {
             AbilityType = "DwarvenAbilities";
-            spell_1 = new Spell("Decisive Strike", 150, 0, 8);
-            spell_2 = new Spell("Courage", 0, 0, 15);
-            spell_3 = new Spell("Justice", 450, 0, 80);
+            spell_1 = new Spell("Health Generator", 0, 100, 15);
+            spell_2 = new Spell("Lava shoot", 200, 0, 0);
+            spell_3 = new Spell("Core Overdrive", 0, 350, 80);
             Spells = new List<Spell>();
             Spells.Add(spell_1);
             Spells.Add(spell_2);
@@ -86,9 +86,9 @@ namespace RpgCharaterCreation
         public OrcishAbilities()
         {
             AbilityType = "OrcishAbilities";
-            spell_1 = new Spell("Decisive Strike", 150, 0, 8);
-            spell_2 = new Spell("Courage", 0, 0, 15);
-            spell_3 = new Spell("Justice", 450, 0, 80);
+            spell_1 = new Spell("Destructure Strike", 150, 0, 8);
+            spell_2 = new Spell("Spin of Death", 200, 0, 20);
+            spell_3 = new Spell("Undying will", 0, 0, 80);
             Spells = new List<Spell>();
             Spells.Add(spell_1);
             Spells.Add(spell_2);

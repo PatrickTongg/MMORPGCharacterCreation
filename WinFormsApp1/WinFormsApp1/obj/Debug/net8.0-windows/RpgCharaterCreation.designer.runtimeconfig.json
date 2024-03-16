@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\tongc_ql1iria\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\tongc_ql1iria\\.nuget\\packages"
+      "C:\\Users\\tongc\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tongc\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
