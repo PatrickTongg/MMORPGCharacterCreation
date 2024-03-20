@@ -1,0 +1,17 @@
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.csproj.GenerateResource.cache
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.GeneratedMSBuildEditorConfig.editorconfig
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.AssemblyInfoInputs.cache
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.AssemblyInfo.cs
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.csproj.CoreCompileInputs.cache
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.sourcelink.json
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.exe
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.deps.json
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.runtimeconfig.json
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.dll
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.pdb
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.dll
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\RpgCharaterCreation.dll
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.pdb
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.genruntimeconfig.cache
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\RpgCharaterCreation.dll
