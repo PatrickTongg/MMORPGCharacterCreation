@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\clazz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\clazz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\ability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\spell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\spell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\appearance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\appearance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\tongc\\onedrive\\desktop\\lab7\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\icharacterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\icharacterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Spell.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Spell.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Spell.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Spell.cs",
+              "RelativeToolTip": "WinFormsApp1\\Spell.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICharacterFactory.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\ICharacterFactory.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\ICharacterFactory.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\ICharacterFactory.cs",
+              "RelativeToolTip": "WinFormsApp1\\ICharacterFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Appearance.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Appearance.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Appearance.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Appearance.cs",
+              "RelativeToolTip": "WinFormsApp1\\Appearance.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Race.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Race.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Race.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Race.cs",
+              "RelativeToolTip": "WinFormsApp1\\Race.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA3wBsAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Clazz.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Clazz.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Clazz.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Clazz.cs",
+              "RelativeToolTip": "WinFormsApp1\\Clazz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ability.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Ability.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Ability.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Ability.cs",
+              "RelativeToolTip": "WinFormsApp1\\Ability.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAYwFoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPrototype.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\IPrototype.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\IPrototype.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\IPrototype.cs",
+              "RelativeToolTip": "WinFormsApp1\\IPrototype.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Player.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Player.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Player.cs",
+              "RelativeToolTip": "WinFormsApp1\\Player.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAjwBEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Program.cs",
+              "RelativeToolTip": "WinFormsApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T22:23:23.318Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
