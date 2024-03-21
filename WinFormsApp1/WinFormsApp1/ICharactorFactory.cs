@@ -8,6 +8,6 @@ namespace RpgCharaterCreation
 {
     public interface ICharacterFactory
     {
-
     }
+
 }

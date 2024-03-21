@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace RpgCharaterCreation
 {
     [Serializable()]
-    class Race : IPrototype<Race>
+    public class Race : IPrototype<Race>
     {
         public string Name { get; set; }
         public double HP { get; set; }
@@ -30,7 +30,7 @@ namespace RpgCharaterCreation
 
     }
     [Serializable()]
-    class RaceManager : IPrototype<Race>
+    public class RaceManager : IPrototype<Race>
     {
         public Dictionary<string, Race> race = new Dictionary<string, Race>
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RpgCharaterCreation
 {
-    class Spell
+    public class Spell
     {
         public string Name { get; set; }
         public double Damage { get; set; }

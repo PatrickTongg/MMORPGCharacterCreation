@@ -8,11 +8,11 @@ using System.Windows.Forms;
 
 namespace RpgCharaterCreation
 {
-    class Appearance : IPrototype<Appearance>
+    public class Appearance : IPrototype<Appearance>
     {
         public String Description {  get; set; }
     }
-    class HairStyle : Appearance
+    public class HairStyle : Appearance
     {
         bool Tided;
         public HairStyle()
@@ -20,7 +20,7 @@ namespace RpgCharaterCreation
             Tided = false;
         }
     }
-    class Attire : Appearance
+    public class Attire : Appearance
     {
         string color;
         public Attire()
@@ -28,7 +28,7 @@ namespace RpgCharaterCreation
            color = "red";
         }
     }
-    class Facialfeature : Appearance
+    public class Facialfeature : Appearance
     {
         bool Mushstach;
         bool scar;
@@ -39,7 +39,7 @@ namespace RpgCharaterCreation
         }
     }
     [Serializable()]
-    class AppearanceManager : IPrototype<Appearance>
+    public class AppearanceManager : IPrototype<Appearance>
     {
         public Dictionary<string, Appearance> appearance = new Dictionary<string, Appearance>
         {

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace RpgCharaterCreation
 {
     [Serializable()]
-    class Ability : IPrototype<Ability>
+    public class Ability : IPrototype<Ability>
     {
         public List <Spell> Spells { get; set; }
         public string AbilityType { get; set; }
@@ -20,7 +20,7 @@ namespace RpgCharaterCreation
             return $"AbilityType: {AbilityType}";
         }
     }
-    class HumanAbilities:Ability
+    public class HumanAbilities:Ability
     {
         Spell spell_1;
         Spell spell_2;
@@ -36,11 +36,6 @@ namespace RpgCharaterCreation
             Spells.Add(spell_2);
             Spells.Add(spell_3);
         }
-        public override string ToString()
-        {
-            
-        }
-          
     }
     class DwarvenAbilities : Ability
     {

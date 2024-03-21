@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace RpgCharaterCreation
 {
     [Serializable()]
-    class Clazz : IPrototype<Clazz>
+    public class Clazz : IPrototype<Clazz>
     {
         public string ClazzName { get; set; }
         public AttackType attackType { get; set; }
@@ -29,7 +29,7 @@ namespace RpgCharaterCreation
         }
     }
     [Serializable()]
-    class ClazzManager : IPrototype<Clazz>
+    public class ClazzManager : IPrototype<Clazz>
     {
         public Dictionary<string, Clazz> clazz = new Dictionary<string, Clazz>
         {
