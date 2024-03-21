@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tongc\\.nuget\\packages\\": {}
+    "C:\\Users\\Vitaly Sukhinin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
+      "projectUniqueName": "C:\\Users\\Vitaly Sukhinin\\Source\\Repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
       "projectName": "RpgCharaterCreation",
-      "projectPath": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
-      "packagesPath": "C:\\Users\\tongc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tongc\\OneDrive\\Desktop\\Lab7\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "projectPath": "C:\\Users\\Vitaly Sukhinin\\Source\\Repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
+      "packagesPath": "C:\\Users\\Vitaly Sukhinin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vitaly Sukhinin\\Source\\Repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tongc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vitaly Sukhinin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

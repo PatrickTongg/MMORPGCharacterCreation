@@ -28,139 +28,175 @@
         /// </summary>
         private void InitializeComponent()
         {
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
-            radioButton3 = new RadioButton();
-            radioButton4 = new RadioButton();
-            groupBox1 = new GroupBox();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            groupBox1.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            classRadioBtn = new RadioButton();
+            abilitiesRadioBtn = new RadioButton();
+            raceRadioBtn = new RadioButton();
+            appearanceRadioBtn = new RadioButton();
+            pictureBox1 = new PictureBox();
+            goBtn = new Button();
+            createBtn = new Button();
+            classLabel = new Label();
+            raceLabel = new Label();
+            abilitiesLabel = new Label();
+            appearanceLabel = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // radioButton1
+            // classRadioBtn
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(6, 32);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(94, 19);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "radioButton1";
-            radioButton1.UseVisualStyleBackColor = true;
+            classRadioBtn.AutoSize = true;
+            classRadioBtn.Location = new Point(170, 184);
+            classRadioBtn.Margin = new Padding(6);
+            classRadioBtn.Name = "classRadioBtn";
+            classRadioBtn.Size = new Size(415, 36);
+            classRadioBtn.TabIndex = 0;
+            classRadioBtn.TabStop = true;
+            classRadioBtn.Text = "Great Library of Arcane Knowledge";
+            classRadioBtn.UseVisualStyleBackColor = true;
+            classRadioBtn.CheckedChanged += classRadioBtn_CheckedChanged;
             // 
-            // radioButton2
+            // abilitiesRadioBtn
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(6, 75);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(94, 19);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "radioButton2";
-            radioButton2.UseVisualStyleBackColor = true;
+            abilitiesRadioBtn.AutoSize = true;
+            abilitiesRadioBtn.Location = new Point(724, 342);
+            abilitiesRadioBtn.Margin = new Padding(6);
+            abilitiesRadioBtn.Name = "abilitiesRadioBtn";
+            abilitiesRadioBtn.Size = new Size(197, 36);
+            abilitiesRadioBtn.TabIndex = 1;
+            abilitiesRadioBtn.TabStop = true;
+            abilitiesRadioBtn.Text = "Hall of Heroes";
+            abilitiesRadioBtn.UseVisualStyleBackColor = true;
+            abilitiesRadioBtn.CheckedChanged += abilitiesRadioBtn_CheckedChanged;
             // 
-            // radioButton3
+            // raceRadioBtn
             // 
-            radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(106, 32);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(94, 19);
-            radioButton3.TabIndex = 2;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "radioButton3";
-            radioButton3.UseVisualStyleBackColor = true;
+            raceRadioBtn.AutoSize = true;
+            raceRadioBtn.Location = new Point(158, 508);
+            raceRadioBtn.Margin = new Padding(6);
+            raceRadioBtn.Name = "raceRadioBtn";
+            raceRadioBtn.Size = new Size(202, 36);
+            raceRadioBtn.TabIndex = 2;
+            raceRadioBtn.TabStop = true;
+            raceRadioBtn.Text = "Tree of Origins";
+            raceRadioBtn.UseVisualStyleBackColor = true;
+            raceRadioBtn.CheckedChanged += raceRadioBtn_CheckedChanged;
             // 
-            // radioButton4
+            // appearanceRadioBtn
             // 
-            radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(106, 75);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(94, 19);
-            radioButton4.TabIndex = 3;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "radioButton4";
-            radioButton4.UseVisualStyleBackColor = true;
+            appearanceRadioBtn.AutoSize = true;
+            appearanceRadioBtn.Location = new Point(560, 672);
+            appearanceRadioBtn.Margin = new Padding(6);
+            appearanceRadioBtn.Name = "appearanceRadioBtn";
+            appearanceRadioBtn.Size = new Size(372, 36);
+            appearanceRadioBtn.TabIndex = 3;
+            appearanceRadioBtn.TabStop = true;
+            appearanceRadioBtn.Text = "Enchanted Mirror of Reflection";
+            appearanceRadioBtn.UseVisualStyleBackColor = true;
+            appearanceRadioBtn.CheckedChanged += appearanceRadioBtn_CheckedChanged;
             // 
-            // groupBox1
+            // pictureBox1
             // 
-            groupBox1.Controls.Add(radioButton4);
-            groupBox1.Controls.Add(radioButton1);
-            groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton3);
-            groupBox1.Location = new Point(35, 125);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(200, 100);
-            groupBox1.TabIndex = 4;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(28, 36);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(1028, 808);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
             // 
-            // label1
+            // goBtn
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(690, 281);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 4;
-            label1.Text = "label1";
+            goBtn.Location = new Point(1087, 96);
+            goBtn.Name = "goBtn";
+            goBtn.Size = new Size(190, 68);
+            goBtn.TabIndex = 9;
+            goBtn.Text = "Go!";
+            goBtn.UseVisualStyleBackColor = true;
+            goBtn.Click += goBtn_Click;
             // 
-            // label2
+            // createBtn
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(477, 281);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 5;
-            label2.Text = "label2";
+            createBtn.Location = new Point(1087, 200);
+            createBtn.Name = "createBtn";
+            createBtn.Size = new Size(190, 84);
+            createBtn.TabIndex = 10;
+            createBtn.Text = "Create character";
+            createBtn.UseVisualStyleBackColor = true;
+            createBtn.Click += createBtn_Click;
             // 
-            // label3
+            // classLabel
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(690, 115);
-            label3.Name = "label3";
-            label3.Size = new Size(38, 15);
-            label3.TabIndex = 6;
-            label3.Text = "label3";
+            classLabel.AutoSize = true;
+            classLabel.Location = new Point(1075, 406);
+            classLabel.Name = "classLabel";
+            classLabel.Size = new Size(79, 32);
+            classLabel.TabIndex = 11;
+            classLabel.Text = "Class: ";
             // 
-            // label4
+            // raceLabel
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(477, 115);
-            label4.Name = "label4";
-            label4.Size = new Size(38, 15);
-            label4.TabIndex = 7;
-            label4.Text = "label4";
+            raceLabel.AutoSize = true;
+            raceLabel.Location = new Point(1075, 459);
+            raceLabel.Name = "raceLabel";
+            raceLabel.Size = new Size(76, 32);
+            raceLabel.TabIndex = 12;
+            raceLabel.Text = "Race: ";
+            // 
+            // abilitiesLabel
+            // 
+            abilitiesLabel.AutoSize = true;
+            abilitiesLabel.Location = new Point(1075, 563);
+            abilitiesLabel.Name = "abilitiesLabel";
+            abilitiesLabel.Size = new Size(103, 32);
+            abilitiesLabel.TabIndex = 14;
+            abilitiesLabel.Text = "Abilities:";
+            // 
+            // appearanceLabel
+            // 
+            appearanceLabel.AutoSize = true;
+            appearanceLabel.Location = new Point(1075, 510);
+            appearanceLabel.Name = "appearanceLabel";
+            appearanceLabel.Size = new Size(145, 32);
+            appearanceLabel.TabIndex = 13;
+            appearanceLabel.Text = "Appearance:";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label1);
-            Controls.Add(label2);
-            Controls.Add(label3);
-            Controls.Add(label4);
-            Controls.Add(groupBox1);
+            ClientSize = new Size(1304, 847);
+            Controls.Add(abilitiesLabel);
+            Controls.Add(appearanceLabel);
+            Controls.Add(raceLabel);
+            Controls.Add(classLabel);
+            Controls.Add(createBtn);
+            Controls.Add(goBtn);
+            Controls.Add(raceRadioBtn);
+            Controls.Add(appearanceRadioBtn);
+            Controls.Add(classRadioBtn);
+            Controls.Add(abilitiesRadioBtn);
+            Controls.Add(pictureBox1);
+            Margin = new Padding(6);
             Name = "Form1";
-            Text = "Form1";
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            Text = "Realm of legends";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
-        private RadioButton radioButton3;
-        private RadioButton radioButton4;
-        private GroupBox groupBox1;
-        private Label label4;
-        private Label label3;
-        private Label label2;
-        private Label label1;
+        private RadioButton classRadioBtn;
+        private RadioButton abilitiesRadioBtn;
+        private RadioButton raceRadioBtn;
+        private RadioButton appearanceRadioBtn;
+        private PictureBox pictureBox1;
+        private Button goBtn;
+        private Button createBtn;
+        private Label classLabel;
+        private Label raceLabel;
+        private Label abilitiesLabel;
+        private Label appearanceLabel;
     }
 }

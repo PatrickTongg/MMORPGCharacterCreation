@@ -15,3 +15,25 @@ D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net
 D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.pdb
 D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.genruntimeconfig.cache
 D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\RpgCharaterCreation.dll
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.exe
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.deps.json
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.runtimeconfig.json
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.dll
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\RpgCharaterCreation.pdb
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.AbilityForm.resources
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.AppearanceForm.resources
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.ClassForm.resources
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.Properties.Resources.resources
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.RaceForm.resources
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.csproj.GenerateResource.cache
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.AssemblyInfoInputs.cache
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.AssemblyInfo.cs
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.csproj.CoreCompileInputs.cache
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.sourcelink.json
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.dll
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\RpgCharaterCreation.dll
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.pdb
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.genruntimeconfig.cache
+C:\Users\Vitaly Sukhinin\Source\Repos\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\RpgCharaterCreation.dll
