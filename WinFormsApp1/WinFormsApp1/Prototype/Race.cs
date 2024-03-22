@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RpgCharaterCreation
+namespace RpgCharaterCreation.Prototype
 {
     [Serializable()]
     public class Race : IPrototype<Race>
@@ -13,10 +13,10 @@ namespace RpgCharaterCreation
         public double HP { get; set; }
         public double Armor { get; set; }
         public double MagicResist { get; set; }
-        public double MovementSpeed {  get; set; }
-        public Race(string Race,double HP,double Armor,double MagicResist,double MovementSpeed)
+        public double MovementSpeed { get; set; }
+        public Race(string Race, double HP, double Armor, double MagicResist, double MovementSpeed)
         {
-            this.Name = Race;
+            Name = Race;
             this.HP = HP;
             this.Armor = Armor;
             this.MagicResist = MagicResist;

@@ -46,10 +46,9 @@
             // classRadioBtn
             // 
             classRadioBtn.AutoSize = true;
-            classRadioBtn.Location = new Point(170, 184);
-            classRadioBtn.Margin = new Padding(6);
+            classRadioBtn.Location = new Point(92, 86);
             classRadioBtn.Name = "classRadioBtn";
-            classRadioBtn.Size = new Size(415, 36);
+            classRadioBtn.Size = new Size(208, 19);
             classRadioBtn.TabIndex = 0;
             classRadioBtn.TabStop = true;
             classRadioBtn.Text = "Great Library of Arcane Knowledge";
@@ -59,10 +58,9 @@
             // abilitiesRadioBtn
             // 
             abilitiesRadioBtn.AutoSize = true;
-            abilitiesRadioBtn.Location = new Point(724, 342);
-            abilitiesRadioBtn.Margin = new Padding(6);
+            abilitiesRadioBtn.Location = new Point(390, 160);
             abilitiesRadioBtn.Name = "abilitiesRadioBtn";
-            abilitiesRadioBtn.Size = new Size(197, 36);
+            abilitiesRadioBtn.Size = new Size(100, 19);
             abilitiesRadioBtn.TabIndex = 1;
             abilitiesRadioBtn.TabStop = true;
             abilitiesRadioBtn.Text = "Hall of Heroes";
@@ -72,10 +70,9 @@
             // raceRadioBtn
             // 
             raceRadioBtn.AutoSize = true;
-            raceRadioBtn.Location = new Point(158, 508);
-            raceRadioBtn.Margin = new Padding(6);
+            raceRadioBtn.Location = new Point(85, 238);
             raceRadioBtn.Name = "raceRadioBtn";
-            raceRadioBtn.Size = new Size(202, 36);
+            raceRadioBtn.Size = new Size(101, 19);
             raceRadioBtn.TabIndex = 2;
             raceRadioBtn.TabStop = true;
             raceRadioBtn.Text = "Tree of Origins";
@@ -85,10 +82,9 @@
             // appearanceRadioBtn
             // 
             appearanceRadioBtn.AutoSize = true;
-            appearanceRadioBtn.Location = new Point(560, 672);
-            appearanceRadioBtn.Margin = new Padding(6);
+            appearanceRadioBtn.Location = new Point(302, 315);
             appearanceRadioBtn.Name = "appearanceRadioBtn";
-            appearanceRadioBtn.Size = new Size(372, 36);
+            appearanceRadioBtn.Size = new Size(187, 19);
             appearanceRadioBtn.TabIndex = 3;
             appearanceRadioBtn.TabStop = true;
             appearanceRadioBtn.Text = "Enchanted Mirror of Reflection";
@@ -98,18 +94,20 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(28, 36);
+            pictureBox1.Location = new Point(15, 17);
+            pictureBox1.Margin = new Padding(2, 1, 2, 1);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1028, 808);
+            pictureBox1.Size = new Size(554, 379);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
             // goBtn
             // 
-            goBtn.Location = new Point(1087, 96);
+            goBtn.Location = new Point(585, 45);
+            goBtn.Margin = new Padding(2, 1, 2, 1);
             goBtn.Name = "goBtn";
-            goBtn.Size = new Size(190, 68);
+            goBtn.Size = new Size(102, 32);
             goBtn.TabIndex = 9;
             goBtn.Text = "Go!";
             goBtn.UseVisualStyleBackColor = true;
@@ -117,9 +115,11 @@
             // 
             // createBtn
             // 
-            createBtn.Location = new Point(1087, 200);
+            createBtn.Enabled = false;
+            createBtn.Location = new Point(585, 94);
+            createBtn.Margin = new Padding(2, 1, 2, 1);
             createBtn.Name = "createBtn";
-            createBtn.Size = new Size(190, 84);
+            createBtn.Size = new Size(102, 39);
             createBtn.TabIndex = 10;
             createBtn.Text = "Create character";
             createBtn.UseVisualStyleBackColor = true;
@@ -128,44 +128,48 @@
             // classLabel
             // 
             classLabel.AutoSize = true;
-            classLabel.Location = new Point(1075, 406);
+            classLabel.Location = new Point(579, 190);
+            classLabel.Margin = new Padding(2, 0, 2, 0);
             classLabel.Name = "classLabel";
-            classLabel.Size = new Size(79, 32);
+            classLabel.Size = new Size(40, 15);
             classLabel.TabIndex = 11;
             classLabel.Text = "Class: ";
             // 
             // raceLabel
             // 
             raceLabel.AutoSize = true;
-            raceLabel.Location = new Point(1075, 459);
+            raceLabel.Location = new Point(579, 215);
+            raceLabel.Margin = new Padding(2, 0, 2, 0);
             raceLabel.Name = "raceLabel";
-            raceLabel.Size = new Size(76, 32);
+            raceLabel.Size = new Size(38, 15);
             raceLabel.TabIndex = 12;
             raceLabel.Text = "Race: ";
             // 
             // abilitiesLabel
             // 
             abilitiesLabel.AutoSize = true;
-            abilitiesLabel.Location = new Point(1075, 563);
+            abilitiesLabel.Location = new Point(579, 264);
+            abilitiesLabel.Margin = new Padding(2, 0, 2, 0);
             abilitiesLabel.Name = "abilitiesLabel";
-            abilitiesLabel.Size = new Size(103, 32);
+            abilitiesLabel.Size = new Size(52, 15);
             abilitiesLabel.TabIndex = 14;
             abilitiesLabel.Text = "Abilities:";
             // 
             // appearanceLabel
             // 
             appearanceLabel.AutoSize = true;
-            appearanceLabel.Location = new Point(1075, 510);
+            appearanceLabel.Location = new Point(579, 239);
+            appearanceLabel.Margin = new Padding(2, 0, 2, 0);
             appearanceLabel.Name = "appearanceLabel";
-            appearanceLabel.Size = new Size(145, 32);
+            appearanceLabel.Size = new Size(73, 15);
             appearanceLabel.TabIndex = 13;
             appearanceLabel.Text = "Appearance:";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1304, 847);
+            ClientSize = new Size(702, 397);
             Controls.Add(abilitiesLabel);
             Controls.Add(appearanceLabel);
             Controls.Add(raceLabel);
@@ -177,7 +181,6 @@
             Controls.Add(classRadioBtn);
             Controls.Add(abilitiesRadioBtn);
             Controls.Add(pictureBox1);
-            Margin = new Padding(6);
             Name = "Form1";
             Text = "Realm of legends";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RpgCharaterCreation.Prototype;
 
-namespace RpgCharaterCreation
+namespace RpgCharaterCreation.Factories
 {
-    public class AppearanceFactory:ICharacterFactory
+    public class AppearanceFactory
     {
-        public Appearance CreateAppearance(string key)
+        public Appearances CreateAppearance(string key)
         {
             AppearanceManager appearanceManager = new AppearanceManager();
             return appearanceManager.appearance[key].Clone();

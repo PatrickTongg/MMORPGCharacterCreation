@@ -1,4 +1,5 @@
 using RpgCharaterCreation;
+using RpgCharaterCreation.Builder;
 
 namespace WinFormsApp1
 {
@@ -31,6 +32,20 @@ namespace WinFormsApp1
                     raceRadioBtn.Enabled = false;
                     break;
             }
+            if (Builder.appear != null)
+            {
+                appearanceRadioBtn.Enabled = false;
+            }
+            if (Storage.clazz != null)
+            {
+                classRadioBtn.Enabled = false;
+            }
+            if(Storage.abilities != null)
+            {
+                abilitiesRadioBtn.Enabled = false;
+            }
+            if(Storage.race != null)
+            { raceRadioBtn.Enabled = false; }
 
             if (!(appearanceRadioBtn.Enabled || classRadioBtn.Enabled
                 || abilitiesRadioBtn.Enabled || raceRadioBtn.Enabled))

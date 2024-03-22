@@ -6,13 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RpgCharaterCreation
+namespace RpgCharaterCreation.Prototype
 {
-    public class Appearance : IPrototype<Appearance>
+    public class Appearances : IPrototype<Appearances>
     {
-        public String Description {  get; set; }
+        public string Description { get; set; }
     }
-    public class HairStyle : Appearance
+    public class HairStyle : Appearances
     {
         bool Tided;
         public HairStyle()
@@ -20,15 +20,15 @@ namespace RpgCharaterCreation
             Tided = false;
         }
     }
-    public class Attire : Appearance
+    public class Attire : Appearances
     {
         string color;
         public Attire()
         {
-           color = "red";
+            color = "red";
         }
     }
-    public class Facialfeature : Appearance
+    public class Facialfeature : Appearances
     {
         bool Mushstach;
         bool scar;
@@ -39,9 +39,9 @@ namespace RpgCharaterCreation
         }
     }
     [Serializable()]
-    public class AppearanceManager : IPrototype<Appearance>
+    public class AppearanceManager : IPrototype<Appearances>
     {
-        public Dictionary<string, Appearance> appearance = new Dictionary<string, Appearance>
+        public Dictionary<string, Appearances> appearance = new Dictionary<string, Appearances>
         {
             {"Hairstyle",new HairStyle()},
             {"Facialfeature",new Facialfeature() },

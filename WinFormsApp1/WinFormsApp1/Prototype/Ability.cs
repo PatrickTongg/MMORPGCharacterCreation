@@ -7,12 +7,12 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace RpgCharaterCreation
+namespace RpgCharaterCreation.Prototype
 {
     [Serializable()]
     public class Ability : IPrototype<Ability>
     {
-        public List <Spell> Spells { get; set; }
+        public List<Spell> Spells { get; set; }
         public string AbilityType { get; set; }
 
         public override string ToString()
@@ -20,7 +20,7 @@ namespace RpgCharaterCreation
             return $"AbilityType: {AbilityType}";
         }
     }
-    public class HumanAbilities:Ability
+    public class HumanAbilities : Ability
     {
         Spell spell_1;
         Spell spell_2;

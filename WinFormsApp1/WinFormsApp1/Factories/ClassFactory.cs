@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RpgCharaterCreation
+namespace RpgCharaterCreation.Factories
 {
-    public class ClassFactory:ICharacterFactory
+    public class ClassFactory
     {
-         public Clazz CreateClass(string key) 
+        public Clazz CreateClass(string key)
         {
             ClazzManager manager = new ClazzManager();
             return manager.clazz[key].Clone();

@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RpgCharaterCreation.Prototype;
 
-namespace RpgCharaterCreation
+namespace RpgCharaterCreation.Factories
 {
-    public class RaceFactory:ICharacterFactory
+    public class RaceFactory
     {
-        public Race CreateRace(String key)
+        public Race CreateRace(string key)
         {
             RaceManager manager = new RaceManager();
-            return manager.race[key]; 
+            return manager.race[key].Clone();
         }
     }
 }

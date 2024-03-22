@@ -4,6 +4,7 @@ using System.ComponentModel.Design.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RpgCharaterCreation.Prototype;
 
 namespace RpgCharaterCreation
 {

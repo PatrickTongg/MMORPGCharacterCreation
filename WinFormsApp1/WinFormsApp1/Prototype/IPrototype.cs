@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RpgCharaterCreation
+namespace RpgCharaterCreation.Prototype
 {
     [Serializable()]
     public abstract class IPrototype<T>
     {
         public T Clone()
         {
-            return (T) this.MemberwiseClone();
+            return (T)MemberwiseClone();
         }
 
     }
