@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\vitaly sukhinin\\source\\repos\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|c:\\users\\vitaly sukhinin\\source\\repos\\mmorpgcharactercreation\\winformsapp1\\winformsapp1\\rpgcharatercreation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\rpgcharatercreation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -71,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\appearance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\winformsapp1\\rpgcharatercreation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\rpgcharatercreation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\winformsapp1\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D15F3744-F52B-4E0E-B188-008BD81A9786}|WinFormsApp1\\RpgCharaterCreation.csproj|solutionrelative:winformsapp1\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -98,23 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
-              "ToolTip": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T23:13:35.341Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RaceForm.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RaceForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\RaceForm.cs",
@@ -126,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RaceForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RaceForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\RaceForm.cs",
@@ -137,20 +125,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
               "ToolTip": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeToolTip": "WinFormsApp1\\Form1.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAgwCUAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T22:23:23.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T22:23:23.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.Designer.cs",
@@ -162,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClassForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\ClassForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\ClassForm.cs",
@@ -173,7 +160,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "RpgCharaterCreation.csproj",
+              "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
+              "RelativeDocumentMoniker": "WinFormsApp1\\RpgCharaterCreation.csproj",
+              "ToolTip": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
+              "RelativeToolTip": "WinFormsApp1\\RpgCharaterCreation.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-21T21:01:50.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T23:13:35.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ClassForm.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\ClassForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\ClassForm.cs",
@@ -185,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AppearanceForm.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\AppearanceForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AppearanceForm.cs",
@@ -197,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AppearanceForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\AppearanceForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AppearanceForm.cs",
@@ -208,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AbilityForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\AbilityForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AbilityForm.cs",
@@ -219,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Race.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Race.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Race.cs",
@@ -231,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AbilityForm.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\AbilityForm.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AbilityForm.cs",
@@ -243,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ClassForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\ClassForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\ClassForm.Designer.cs",
@@ -255,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Ability.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Ability.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Ability.cs",
@@ -267,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AbilityForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\AbilityForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\AbilityForm.Designer.cs",
@@ -279,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Clazz.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Clazz.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Clazz.cs",
@@ -291,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Appearance.cs",
               "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\Appearance.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Appearance.cs",
@@ -300,18 +311,6 @@
               "ViewState": "AQIAAAwAAAAAAAAAAAAYwCUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T22:23:23.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RpgCharaterCreation",
-              "DocumentMoniker": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
-              "RelativeDocumentMoniker": "WinFormsApp1\\RpgCharaterCreation.csproj",
-              "ToolTip": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
-              "RelativeToolTip": "WinFormsApp1\\RpgCharaterCreation.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-21T21:01:50.015Z"
             },
             {
               "$type": "Document",
