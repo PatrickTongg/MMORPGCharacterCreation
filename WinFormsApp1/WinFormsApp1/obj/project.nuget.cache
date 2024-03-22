@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "3cLq9Mt/t7LzCrDElrSnKBN9Jt1ljvWX5lyDTahQLlKk2Kfv1racCF4Ps6633231t2TCMDPdUbkU8OD7QOssBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\tongc\\OneDrive\\Desktop\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
+=======
+  "dgSpecHash": "Ppqe/DG0DeGLO3dNz72JeVgMvdQ4C6rBPe347u7SYFpM+mSMjAVFpPljmh4heZoDJ3kB4QnjWNCe+Ej6hBgxVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vitaly Sukhinin\\source\\repos\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
+>>>>>>> fe3cd9c0b3eb4f3fa6a0b8461d3786bcca115080
   "expectedPackageFiles": [],
   "logs": []
 }
