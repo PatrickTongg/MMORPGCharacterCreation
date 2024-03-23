@@ -13,8 +13,11 @@ namespace RpgCharaterCreation
 {
     public partial class ViewPlayer : Form
     {
-        public ViewPlayer(Character ch)
+        Character character;
+        bool isExisting;
+        public ViewPlayer(Character ch, bool isExisting)
         {
+            this.isExisting = isExisting;
             InitializeComponent();
             label5.Text = ch.race.Name;
             label6.Text = ch.clazz.ClazzName;
@@ -40,11 +43,22 @@ namespace RpgCharaterCreation
             {
                 OrchishClazzPic.Visible = true;
             }
+            character = ch;
+            if (isExisting)
+            {
+                redoBtn.Visible = false;
+            }
         }
 
         private void createBtn_Click(object sender, EventArgs e)
         {
-
+            if (!isExisting)
+            {
+                DataStorage.Add(character);
+            }
+            ListForm form = new ListForm();
+            form.show();
+            this.Hide();
         }
 
         private void redoBtn_Click(object sender, EventArgs e)

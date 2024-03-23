@@ -99,7 +99,7 @@ namespace WinFormsApp1
 
         private void createBtn_Click(object sender, EventArgs e)
         {
-            ViewPlayer viewPlayer = new ViewPlayer(builder.build());
+            ViewPlayer viewPlayer = new ViewPlayer(builder.build(), false);
             viewPlayer.Show();
             this.Hide();
         }

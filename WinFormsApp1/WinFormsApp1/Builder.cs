@@ -10,30 +10,30 @@ namespace RpgCharaterCreation
     public class Builder : IBuilder
     {
         private Character ch;
-
+        private IModel model;
         public Builder()
         {
             ch = new Character();
         }
-        public void setAbility(string Key)
+        public IBuilder setAbility(string Key)
         {
-            AbilityFactory factory = new AbilityFactory();
-            ch.ability = factory.CreateAbility(Key);
+            ch.ability = model.createAbility(Key);
+            return this;
         }
-        public void setClazz(string Key)
+        public IBuilder setClazz(string Key)
         {
-            ClassFactory factory = new ClassFactory();
-            ch.clazz = factory.CreateClass(Key);
+            ch.clazz = model.createClazz(Key);
+            return this;
         }
-        public void setAppearance(string Key)
+        public IBuilder setAppearance(string Key)
         {
-            AppearanceFactory factory = new AppearanceFactory();
-            ch.appearances = factory.CreateAppearance(Key);
+            ch.appearances = model.createAppearance(Key);
+            return this;
         }
-        public void setRace(string Key)
+        public IBuilder setRace(string Key)
         {
-            RaceFactory factory = new RaceFactory();
-            ch.race = factory.CreateRace(Key);
+            ch.race = model.createRace(Key);
+            return this;
         }
 
         public Character build()

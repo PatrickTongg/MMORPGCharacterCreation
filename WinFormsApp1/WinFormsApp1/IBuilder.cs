@@ -8,10 +8,10 @@ namespace RpgCharaterCreation
 {
     public interface IBuilder
     {
-        void setAbility(string key);
-        void setClazz(string key);
-        void setRace(string key);
-        void setAppearance(string key);
+        IBuilder setAbility(string key);
+        IBuilder setClazz(string key);
+        IBuilder setRace(string key);
+        IBuilder setAppearance(string key);
         Character build();
     }
 }
