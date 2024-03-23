@@ -13,34 +13,40 @@ namespace RpgCharaterCreation
 {
     public partial class RaceForm : Form
     {
-        public RaceForm()
+        private readonly IBuilder builder;
+        public RaceForm(IBuilder builder)
         {
+            this.builder = builder;
             InitializeComponent();
         }
 
         private void humanBtn_Click(object sender, EventArgs e)
         {
-            openForm("race: human");
+            builder.setRace("HUM");
+            openForm();
         }
 
         private void dwarvenBtn_Click(object sender, EventArgs e)
         {
-            openForm("race: dwarf");
+            builder.setRace("DWA");
+            openForm();
         }
 
         private void elvenBtn_Click(object sender, EventArgs e)
         {
-            openForm("race: elf");
+            builder.setRace("ELV");
+            openForm();
         }
 
         private void orcishBtn_Click(object sender, EventArgs e)
         {
-            openForm("race: orc");
+            builder.setRace("ORC");
+            openForm();
         }
 
-        private void openForm(string race)
+        private void openForm()
         {
-            Form1 form = new Form1(race);
+            Form1 form = new Form1(builder);
             form.Show();
             Hide();
         }

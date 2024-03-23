@@ -22,72 +22,51 @@ namespace RpgCharaterCreation.Prototype
     }
     public class HumanAbilities : Ability
     {
-        Spell spell_1;
-        Spell spell_2;
-        Spell spell_3;
+
         public HumanAbilities()
         {
             AbilityType = "HumanAbility";
-            spell_1 = new Spell("Decisive Strike", 150, 0, 8);
-            spell_2 = new Spell("Courage", 0, 0, 15);
-            spell_3 = new Spell("Justice", 450, 0, 80);
             Spells = new List<Spell>();
-            Spells.Add(spell_1);
-            Spells.Add(spell_2);
-            Spells.Add(spell_3);
+            Spells.Add (new Spell("Decisive Strike", 150, 0, 8));
+            Spells.Add(new Spell("Courage", 0, 0, 15));
+            Spells.Add(new Spell("Justice", 450, 0, 80));
         }
     }
     class DwarvenAbilities : Ability
     {
-        Spell spell_1;
-        Spell spell_2;
-        Spell spell_3;
+ 
         public DwarvenAbilities()
         {
             AbilityType = "DwarvenAbilities";
-            spell_1 = new Spell("Health Generator", 0, 100, 15);
-            spell_2 = new Spell("Lava shoot", 200, 0, 0);
-            spell_3 = new Spell("Core Overdrive", 0, 350, 80);
             Spells = new List<Spell>();
-            Spells.Add(spell_1);
-            Spells.Add(spell_2);
-            Spells.Add(spell_3);
+            Spells.Add(new Spell("Health Generator", 0, 100, 15));
+            Spells.Add(new Spell("Lava shoot", 200, 0, 0));
+            Spells.Add(new Spell("Core Overdrive", 0, 350, 80));
         }
 
     }
     class ElvenAbilities : Ability
     {
-        Spell spell_1;
-        Spell spell_2;
-        Spell spell_3;
+
         public ElvenAbilities()
         {
             AbilityType = "ElvenAbilities";
-            spell_1 = new Spell("Brushmaker", 0, 0, 20);
-            spell_2 = new Spell("Daisy the rock!", 120, 0, 120);
-            spell_3 = new Spell("Incinerate", 250, 0, 8);
             Spells = new List<Spell>();
-            Spells.Add(spell_1);
-            Spells.Add(spell_2);
-            Spells.Add(spell_3);
+            Spells.Add(new Spell("Brushmaker", 0, 0, 20));
+            Spells.Add(new Spell("Daisy the rock!", 120, 0, 120));
+            Spells.Add(new Spell("Incinerate", 250, 0, 8));
         }
 
     }
     class OrcishAbilities : Ability
     {
-        Spell spell_1;
-        Spell spell_2;
-        Spell spell_3;
         public OrcishAbilities()
         {
             AbilityType = "OrcishAbilities";
-            spell_1 = new Spell("Destructure Strike", 150, 0, 8);
-            spell_2 = new Spell("Spin of Death", 200, 0, 20);
-            spell_3 = new Spell("Undying will", 0, 0, 80);
             Spells = new List<Spell>();
-            Spells.Add(spell_1);
-            Spells.Add(spell_2);
-            Spells.Add(spell_3);
+            Spells.Add(new Spell("Destructure Strike", 150, 0, 8));
+            Spells.Add(new Spell("Spin of Death", 200, 0, 20));
+            Spells.Add(new Spell("Undying will", 0, 0, 80));
         }
 
     }
@@ -97,10 +76,10 @@ namespace RpgCharaterCreation.Prototype
     {
         public Dictionary<string, Ability> ability = new Dictionary<string, Ability>
         {
-            {"Human",new HumanAbilities()},
-            {"Dwarven",new DwarvenAbilities()},
-            {"Elve",new ElvenAbilities() },
-            {"Orcish",new OrcishAbilities() }
+            {"HUMA",new HumanAbilities()},
+            {"DWAA",new DwarvenAbilities()},
+            {"ELVA",new ElvenAbilities() },
+            {"ORCA",new OrcishAbilities() }
         };
 
     }

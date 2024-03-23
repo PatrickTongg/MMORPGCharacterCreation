@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RpgCharaterCreation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,34 +14,41 @@ namespace RpgCharaterCreation
 {
     public partial class AbilityForm : Form
     {
-        public AbilityForm()
+        private readonly IBuilder builder;
+        public AbilityForm(IBuilder builder)
         {
             InitializeComponent();
+            this.builder = builder;
         }
 
         private void humanBtn_Click(object sender, EventArgs e)
         {
-            openForm("ability: human abilities");
-        }
+            builder.setAbility("HUMA");
+            openForm();
+        }   
 
         private void dwarvenBtn_Click(object sender, EventArgs e)
         {
-            openForm("ability: dwarven abilities");
+            builder.setAbility("DWAA");
+            openForm();
         }
 
         private void elvenBtn_Click(object sender, EventArgs e)
         {
-            openForm("ability: elven abilities");
+            builder.setAbility("ELVA");
+            openForm();
         }
 
         private void orcishBtn_Click(object sender, EventArgs e)
         {
-            openForm("ability: orcish abilities");
+            builder.setAbility("ORCA");
+            openForm();
         }
 
-        private void openForm(string ability)
+        private void openForm()
         {
-            Form1 form = new Form1(ability);
+
+            Form1 form = new Form1(builder);
             form.Show();
             Hide();
         }

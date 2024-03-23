@@ -18,24 +18,30 @@ namespace RpgCharaterCreation.Prototype
         public HairStyle()
         {
             Tided = false;
+            Description = "Hair: Tided"+Tided;
+
         }
     }
     public class Attire : Appearances
     {
         string color;
+        string TypeName;
         public Attire()
         {
             color = "red";
+            Description = "Attire: "+color;
         }
     }
     public class Facialfeature : Appearances
     {
         bool Mushstach;
         bool scar;
+        string TypeName;
         public Facialfeature()
         {
             Mushstach = false;
             scar = true;
+            Description = "Facial Feature: Scare("+scar+"), Mustach("+Mushstach+")";
         }
     }
     [Serializable()]
@@ -43,9 +49,9 @@ namespace RpgCharaterCreation.Prototype
     {
         public Dictionary<string, Appearances> appearance = new Dictionary<string, Appearances>
         {
-            {"Hairstyle",new HairStyle()},
-            {"Facialfeature",new Facialfeature() },
-            {"Attire",new Attire() }
+            {"HAIR",new HairStyle()},
+            {"FACE",new Facialfeature() },
+            {"ATTIRE",new Attire() }
         };
 
     }

@@ -34,10 +34,10 @@ namespace RpgCharaterCreation.Prototype
     {
         public Dictionary<string, Race> race = new Dictionary<string, Race>
         {
-            {"Human",new Race("Humans",100,100,100,100)},
-            {"Dwarven",new Race("Dwarves", 200,200,50,50) },
-            {"Elve",new Race("Elves", 50,100,150,100) },
-            {"Orcish",new Race("Orcish", 200,150,50,50)}
+            {"HUM",new Race("Human",100,100,100,100)},
+            {"DWA",new Race("Dwarf", 200,200,50,50) },
+            {"ELV",new Race("Elf", 50,100,150,100) },
+            {"ORC",new Race("Orcish", 200,150,50,50)}
         };
 
     }

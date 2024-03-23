@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RpgCharaterCreation.Prototype;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,36 +12,43 @@ using WinFormsApp1;
 
 namespace RpgCharaterCreation
 {
+    
     public partial class ClassForm : Form
     {
-        public ClassForm()
+        private readonly IBuilder builder;
+        public ClassForm(IBuilder builder)
         {
             InitializeComponent();
+            this.builder = builder;
         }
 
         private void warriorBtn_Click(object sender, EventArgs e)
         {
-            openForm("class: warrior");
+            builder.setClazz("WAR");
+            openForm();
         }
 
         private void mageBtn_Click(object sender, EventArgs e)
         {
-            openForm("class: mage");
+            builder.setClazz("MAG");
+            openForm();
         }
 
         private void rogueBtn_Click(object sender, EventArgs e)
         {
-            openForm("class: rogue");
+            builder.setClazz("ROG");
+            openForm();
         }
 
         private void clericBtn_Click(object sender, EventArgs e)
         {
-            openForm("class: cleric");
+            builder.setClazz("WAR");
+            openForm();
         }
 
-        private void openForm(string clazz)
+        private void openForm()
         {
-            Form1 form = new Form1(clazz);
+            Form1 form = new Form1(builder);
             form.Show();
             Hide();
         }

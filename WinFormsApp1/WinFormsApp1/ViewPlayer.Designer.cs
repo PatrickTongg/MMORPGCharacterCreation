@@ -39,6 +39,14 @@
             label9 = new Label();
             redoBtn = new Button();
             createBtn = new Button();
+            HumanClazzPic = new PictureBox();
+            OrchishClazzPic = new PictureBox();
+            DwafClassPic = new PictureBox();
+            ElfClazzPic = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)HumanClazzPic).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrchishClazzPic).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DwafClassPic).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ElfClazzPic).BeginInit();
             SuspendLayout();
             // 
             // RaceIndex
@@ -123,12 +131,13 @@
             // 
             // redoBtn
             // 
-            redoBtn.Location = new Point(249, 169);
+            redoBtn.Location = new Point(214, 169);
             redoBtn.Name = "redoBtn";
             redoBtn.Size = new Size(75, 23);
             redoBtn.TabIndex = 9;
             redoBtn.Text = "Redo";
             redoBtn.UseVisualStyleBackColor = true;
+            redoBtn.Click += redoBtn_Click;
             // 
             // createBtn
             // 
@@ -140,11 +149,55 @@
             createBtn.UseVisualStyleBackColor = true;
             createBtn.Click += createBtn_Click;
             // 
+            // HumanClazzPic
+            // 
+            HumanClazzPic.Image = Properties.Resources.Human;
+            HumanClazzPic.Location = new Point(434, 30);
+            HumanClazzPic.Name = "HumanClazzPic";
+            HumanClazzPic.Size = new Size(114, 148);
+            HumanClazzPic.SizeMode = PictureBoxSizeMode.Zoom;
+            HumanClazzPic.TabIndex = 11;
+            HumanClazzPic.TabStop = false;
+            // 
+            // OrchishClazzPic
+            // 
+            OrchishClazzPic.Image = Properties.Resources.Orcish;
+            OrchishClazzPic.Location = new Point(434, 30);
+            OrchishClazzPic.Name = "OrchishClazzPic";
+            OrchishClazzPic.Size = new Size(114, 148);
+            OrchishClazzPic.SizeMode = PictureBoxSizeMode.Zoom;
+            OrchishClazzPic.TabIndex = 12;
+            OrchishClazzPic.TabStop = false;
+            // 
+            // DwafClassPic
+            // 
+            DwafClassPic.Image = Properties.Resources.Dwarf;
+            DwafClassPic.Location = new Point(434, 30);
+            DwafClassPic.Name = "DwafClassPic";
+            DwafClassPic.Size = new Size(114, 148);
+            DwafClassPic.SizeMode = PictureBoxSizeMode.Zoom;
+            DwafClassPic.TabIndex = 13;
+            DwafClassPic.TabStop = false;
+            // 
+            // ElfClazzPic
+            // 
+            ElfClazzPic.Image = Properties.Resources.Elf;
+            ElfClazzPic.Location = new Point(434, 30);
+            ElfClazzPic.Name = "ElfClazzPic";
+            ElfClazzPic.Size = new Size(114, 148);
+            ElfClazzPic.SizeMode = PictureBoxSizeMode.Zoom;
+            ElfClazzPic.TabIndex = 14;
+            ElfClazzPic.TabStop = false;
+            // 
             // ViewPlayer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(446, 226);
+            ClientSize = new Size(560, 226);
+            Controls.Add(ElfClazzPic);
+            Controls.Add(DwafClassPic);
+            Controls.Add(OrchishClazzPic);
+            Controls.Add(HumanClazzPic);
             Controls.Add(createBtn);
             Controls.Add(redoBtn);
             Controls.Add(label9);
@@ -158,6 +211,10 @@
             Controls.Add(RaceIndex);
             Name = "ViewPlayer";
             Text = "ViewPlayer";
+            ((System.ComponentModel.ISupportInitialize)HumanClazzPic).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrchishClazzPic).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DwafClassPic).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ElfClazzPic).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -175,5 +232,9 @@
         private Label label9;
         private Button redoBtn;
         private Button createBtn;
+        private PictureBox HumanClazzPic;
+        private PictureBox OrchishClazzPic;
+        private PictureBox DwafClassPic;
+        private PictureBox ElfClazzPic;
     }
 }

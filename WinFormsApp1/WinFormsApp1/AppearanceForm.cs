@@ -13,29 +13,34 @@ namespace RpgCharaterCreation
 {
     public partial class AppearanceForm : Form
     {
-        public AppearanceForm()
+        private readonly IBuilder builder;
+        public AppearanceForm(IBuilder builder)
         {
+            this.builder = builder;
             InitializeComponent();
         }
 
         private void hairBtn_Click(object sender, EventArgs e)
         {
-            openForm("appearance: hair style");
+            builder.setAppearance("HAIR");
+            openForm();
         }
 
         private void attireBtn_Click(object sender, EventArgs e)
         {
-            openForm("appearance: attire");
+            builder.setAppearance("ATTIRE");
+            openForm(); 
         }
 
         private void facialBtn_Click(object sender, EventArgs e)
         {
-            openForm("appearance: facial features");
+            builder.setAppearance("FACE");
+            openForm();
         }
 
-        private void openForm(string appearance)
+        private void openForm()
         {
-            Form1 form = new Form1(appearance);
+            Form1 form = new Form1(builder);
             form.Show();
             Hide();
         }

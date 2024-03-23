@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using RpgCharaterCreation.Factories;
 
-namespace RpgCharaterCreation.Builder
+namespace RpgCharaterCreation
 {
     public class Builder : IBuilder
     {
@@ -28,7 +28,7 @@ namespace RpgCharaterCreation.Builder
         public void setAppearance(string Key)
         {
             AppearanceFactory factory = new AppearanceFactory();
-            ch.appearance = factory.CreateAppearance(Key);
+            ch.appearances = factory.CreateAppearance(Key);
         }
         public void setRace(string Key)
         {

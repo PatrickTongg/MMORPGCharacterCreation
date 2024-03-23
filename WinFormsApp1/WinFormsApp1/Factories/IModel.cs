@@ -21,7 +21,7 @@ namespace RpgCharaterCreation.Factories
             return factory.CreateClass(Key).Clone();
         }
 
-        public Appearance createAppearance(string Key)
+        public Appearances createAppearance(string Key)
         {
             AppearanceFactory factory = new AppearanceFactory();
             return factory.CreateAppearance(Key).Clone();

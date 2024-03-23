@@ -60,3 +60,9 @@ C:\Users\tongc\OneDrive\Desktop\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp
 C:\Users\tongc\OneDrive\Desktop\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.genruntimeconfig.cache
 C:\Users\tongc\OneDrive\Desktop\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\RpgCharaterCreation.dll
 C:\Users\tongc\OneDrive\Desktop\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.ViewPlayer.resources
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.AbilityForm.resources
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.AppearanceForm.resources
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.ClassForm.resources
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.Properties.Resources.resources
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.RaceForm.resources
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.ViewPlayer.resources

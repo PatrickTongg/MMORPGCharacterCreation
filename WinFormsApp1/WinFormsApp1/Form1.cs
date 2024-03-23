@@ -1,51 +1,40 @@
 using RpgCharaterCreation;
-using RpgCharaterCreation.Builder;
 
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
+        private readonly IBuilder builder;
+
         public Form1()
         {
             InitializeComponent();
+            builder = new Builder();
         }
 
-        public Form1(string attribute) : this()
+        public Form1(IBuilder builder) : this()
         {
-            string[] elements = attribute.Split(' ', 2);
-            switch (elements[0])
+            this.builder = builder;
+            if (builder.build().appearances != null)
             {
-                case "appearance:":
-                    appearanceLabel.Text += elements[1];
-                    appearanceRadioBtn.Enabled = false;
-                    break;
-                case "class:":
-                    classLabel.Text += elements[1];
-                    classRadioBtn.Enabled = false;
-                    break;
-                case "ability:":
-                    abilitiesLabel.Text += elements[1];
-                    abilitiesRadioBtn.Enabled = false;
-                    break;
-                case "race:":
-                    raceLabel.Text += elements[1];
-                    raceRadioBtn.Enabled = false;
-                    break;
-            }
-            if (Builder.appear != null)
-            {
+                appearanceLabel.Text += builder.build().appearances.Description;
                 appearanceRadioBtn.Enabled = false;
             }
-            if (Storage.clazz != null)
+            if (builder.build().clazz != null)
             {
+                classLabel.Text += builder.build().clazz.ClazzName;
                 classRadioBtn.Enabled = false;
             }
-            if(Storage.abilities != null)
+            if(builder.build().ability != null)
             {
+                abilitiesLabel.Text += builder.build().ability.AbilityType;
                 abilitiesRadioBtn.Enabled = false;
             }
-            if(Storage.race != null)
-            { raceRadioBtn.Enabled = false; }
+            if(builder.build().race != null)
+            {
+                raceLabel.Text += builder.build().race.Name;
+                raceRadioBtn.Enabled = false; 
+            }
 
             if (!(appearanceRadioBtn.Enabled || classRadioBtn.Enabled
                 || abilitiesRadioBtn.Enabled || raceRadioBtn.Enabled))
@@ -87,22 +76,22 @@ namespace WinFormsApp1
         {
             if (classRadioBtn.Checked)
             {
-                ClassForm form = new ClassForm();
+                ClassForm form = new ClassForm(builder);
                 form.Show();
                 Hide();
             } else if (raceRadioBtn.Checked)
             {
-                RaceForm form = new RaceForm();
+                RaceForm form = new RaceForm(builder);
                 form.Show();
                 Hide();
             } else if (appearanceRadioBtn.Checked)
             {
-                AppearanceForm form = new AppearanceForm();
+                AppearanceForm form = new AppearanceForm(builder);
                 form.Show();
                 Hide();
             } else
             {
-                AbilityForm form = new AbilityForm();
+                AbilityForm form = new AbilityForm(builder);
                 form.Show();
                 Hide();
             }
@@ -110,7 +99,9 @@ namespace WinFormsApp1
 
         private void createBtn_Click(object sender, EventArgs e)
         {
-
+            ViewPlayer viewPlayer = new ViewPlayer(builder.build());
+            viewPlayer.Show();
+            this.Hide();
         }
     }
 }

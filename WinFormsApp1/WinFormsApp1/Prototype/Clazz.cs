@@ -4,9 +4,8 @@ using System.ComponentModel.Design.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RpgCharaterCreation.Prototype;
 
-namespace RpgCharaterCreation
+namespace RpgCharaterCreation.Prototype
 {
     [Serializable()]
     public class Clazz : IPrototype<Clazz>
@@ -21,7 +20,7 @@ namespace RpgCharaterCreation
 
         public Clazz(string clazz, AttackType attackType)
         {
-            this.ClazzName = clazz;
+            ClazzName = clazz;
             this.attackType = attackType;
         }
         public override string ToString()
@@ -34,10 +33,10 @@ namespace RpgCharaterCreation
     {
         public Dictionary<string, Clazz> clazz = new Dictionary<string, Clazz>
         {
-            {"Warrior",new  Clazz("Warrior",Clazz.AttackType.Melee)},
-            {"Mages",new Clazz("Mages", Clazz.AttackType.Range) },
-            {"Rougue",new  Clazz("Rougue", Clazz.AttackType.Melee) },
-            {"Cleric",new  Clazz("Cleric", Clazz.AttackType.Range)}
+            {"WAR",new  Clazz("Warrior",Clazz.AttackType.Melee)},
+            {"MAG",new Clazz("Mages", Clazz.AttackType.Range) },
+            {"ROG",new  Clazz("Rogue", Clazz.AttackType.Melee) },
+            {"CLE",new  Clazz("Cleric", Clazz.AttackType.Range)}
         };
 
     }

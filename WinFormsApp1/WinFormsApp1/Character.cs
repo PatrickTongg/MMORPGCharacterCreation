@@ -13,7 +13,7 @@ namespace RpgCharaterCreation
         public Clazz clazz { get; set; }
         public Race race { get; set; }
         public Ability ability { get; set; }
-        public Appearances appearance { get; set; }
+        public Appearances appearances { get; set; }
 
     }
 }
