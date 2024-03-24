@@ -9,28 +9,12 @@ namespace RpgCharaterCreation.Factories
 {
     public abstract class IModel
     {
-        public Race createRace(string Key)
-        {
-            RaceFactory factory = new RaceFactory();
-            return factory.CreateRace(Key).Clone();
-        }
+        public abstract Race createRace(string Key);
 
-        public Clazz createClazz(string Key)
-        {
-            ClassFactory factory = new ClassFactory();
-            return factory.CreateClass(Key).Clone();
-        }
+        public abstract Clazz createClazz(string Key);
 
-        public Appearances createAppearance(string Key)
-        {
-            AppearanceFactory factory = new AppearanceFactory();
-            return factory.CreateAppearance(Key).Clone();
-        }
-        public Ability createAbility(string Key)
-        {
-            AbilityFactory factory = new AbilityFactory();
-            return factory.CreateAbility(Key).Clone();
-        }
+        public abstract Appearances createAppearance(string Key);
+        public abstract Ability createAbility(string Key);
 
 
     }

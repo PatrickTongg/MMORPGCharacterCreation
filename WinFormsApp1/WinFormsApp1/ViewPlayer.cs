@@ -52,13 +52,7 @@ namespace RpgCharaterCreation
 
         private void createBtn_Click(object sender, EventArgs e)
         {
-            if (!isExisting)
-            {
-                DataStorage.Add(character);
-            }
-            ListForm form = new ListForm();
-            form.show();
-            this.Hide();
+
         }
 
         private void redoBtn_Click(object sender, EventArgs e)

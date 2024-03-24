@@ -14,6 +14,7 @@ namespace RpgCharaterCreation
         public Builder()
         {
             ch = new Character();
+            model  = new Model();
         }
         public IBuilder setAbility(string Key)
         {

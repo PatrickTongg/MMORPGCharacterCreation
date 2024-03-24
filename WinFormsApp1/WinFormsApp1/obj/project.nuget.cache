@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IbEgf5glM/zexeeS9b7YPcxRQHcKSABUDDwvutptxLQGQWxuao/80tT+wq1WlD/p5kOcbGKofjv9ScYwiUMAng==",
+  "dgSpecHash": "3cLq9Mt/t7LzCrDElrSnKBN9Jt1ljvWX5lyDTahQLlKk2Kfv1racCF4Ps6633231t2TCMDPdUbkU8OD7QOssBQ==",
   "success": true,
-  "projectFilePath": "D:\\RPGAssignment\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
+  "projectFilePath": "C:\\Users\\tongc\\OneDrive\\Desktop\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\RpgCharaterCreation.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\RPGAssignment\\MMORPGCharacterCreation\\WinFormsApp1\\WinFormsApp1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
