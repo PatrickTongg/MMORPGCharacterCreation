@@ -1,4 +1,3 @@
-D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
 D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.csproj.GenerateResource.cache
 D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.GeneratedMSBuildEditorConfig.editorconfig
 D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.AssemblyInfoInputs.cache
@@ -66,3 +65,5 @@ D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net
 D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.Properties.Resources.resources
 D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.RaceForm.resources
 D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.ViewPlayer.resources
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.CharacterCreationFomr.resources
+D:\RPGAssignment\MMORPGCharacterCreation\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\RpgCharaterCreation.MainMenu.resources

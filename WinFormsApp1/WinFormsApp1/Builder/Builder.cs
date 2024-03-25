@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using RpgCharaterCreation.Factories;
 
-namespace RpgCharaterCreation
+namespace RpgCharaterCreation.Builder
 {
     public class Builder : IBuilder
     {
@@ -14,7 +14,7 @@ namespace RpgCharaterCreation
         public Builder()
         {
             ch = new Character();
-            model  = new Model();
+            model = new Model();
         }
         public IBuilder setAbility(string Key)
         {

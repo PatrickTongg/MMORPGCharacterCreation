@@ -1,4 +1,4 @@
-﻿using RpgCharaterCreation;
+﻿using RpgCharaterCreation.Builder;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -48,7 +48,7 @@ namespace RpgCharaterCreation
         private void openForm()
         {
 
-            Form1 form = new Form1(builder);
+            CharacterCreationFomr form = new CharacterCreationFomr(builder);
             form.Show();
             Hide();
         }

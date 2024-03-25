@@ -1,18 +1,19 @@
 using RpgCharaterCreation;
+using RpgCharaterCreation.Builder;
 
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class CharacterCreationFomr : Form
     {
         private readonly IBuilder builder;
 
-        public Form1()
+        public CharacterCreationFomr()
         {
             InitializeComponent();
             builder = new Builder();
         }
 
-        public Form1(IBuilder builder) : this()
+        public CharacterCreationFomr(IBuilder builder) : this()
         {
             this.builder = builder;
             if (builder.build().appearances != null)

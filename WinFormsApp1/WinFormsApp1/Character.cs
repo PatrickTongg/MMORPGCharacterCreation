@@ -15,5 +15,10 @@ namespace RpgCharaterCreation
         public Ability ability { get; set; }
         public Appearances appearances { get; set; }
 
+        public override string ToString()
+        {
+            return $"Race: {race.Name}  Class:{clazz.ClazzName}";
+        }
+
     }
 }

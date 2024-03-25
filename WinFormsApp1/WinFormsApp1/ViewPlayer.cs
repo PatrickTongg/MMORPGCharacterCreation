@@ -13,6 +13,7 @@ namespace RpgCharaterCreation
 {
     public partial class ViewPlayer : Form
     {
+        DataStorage storage;
         Character character;
         bool isExisting;
         public ViewPlayer(Character ch, bool isExisting)
@@ -52,12 +53,19 @@ namespace RpgCharaterCreation
 
         private void createBtn_Click(object sender, EventArgs e)
         {
-
+            storage = DataStorage.Instance;
+            if (!isExisting)
+            {
+                storage.CharacterList.Add(character);
+            }
+            MainMenu form = new MainMenu();
+            form.Show();
+            this.Hide();
         }
 
         private void redoBtn_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            CharacterCreationFomr form1 = new CharacterCreationFomr();
             form1.Show();
             this.Hide();
         }

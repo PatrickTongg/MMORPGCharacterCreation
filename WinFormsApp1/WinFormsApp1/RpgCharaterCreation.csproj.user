@@ -10,7 +10,10 @@
     <Compile Update="ClassForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
+    <Compile Update="CharacterCreationFomr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="RaceForm.cs">

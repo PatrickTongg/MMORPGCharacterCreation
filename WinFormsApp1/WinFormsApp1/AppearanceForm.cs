@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RpgCharaterCreation.Builder;
 using WinFormsApp1;
 
 namespace RpgCharaterCreation
@@ -40,7 +41,7 @@ namespace RpgCharaterCreation
 
         private void openForm()
         {
-            Form1 form = new Form1(builder);
+            CharacterCreationFomr form = new CharacterCreationFomr(builder);
             form.Show();
             Hide();
         }

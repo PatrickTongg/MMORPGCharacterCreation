@@ -1,4 +1,5 @@
-﻿using RpgCharaterCreation.Prototype;
+﻿using RpgCharaterCreation.Builder;
+using RpgCharaterCreation.Prototype;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using WinFormsApp1;
 
 namespace RpgCharaterCreation
 {
-    
+
     public partial class ClassForm : Form
     {
         private readonly IBuilder builder;
@@ -48,7 +49,7 @@ namespace RpgCharaterCreation
 
         private void openForm()
         {
-            Form1 form = new Form1(builder);
+            CharacterCreationFomr form = new CharacterCreationFomr(builder);
             form.Show();
             Hide();
         }
