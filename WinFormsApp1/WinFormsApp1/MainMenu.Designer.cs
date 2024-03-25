@@ -74,6 +74,7 @@
             exportCSVBtn.TabIndex = 4;
             exportCSVBtn.Text = "Export CSV";
             exportCSVBtn.UseVisualStyleBackColor = true;
+            exportCSVBtn.Click += exportCSVBtn_Click;
             // 
             // exitBtn
             // 

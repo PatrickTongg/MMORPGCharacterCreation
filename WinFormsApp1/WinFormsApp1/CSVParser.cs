@@ -12,40 +12,53 @@ namespace RpgCharaterCreation
     {
         DataStorage storage;
         TextFieldParser parser;
-        Adaptor adaptor;
+        AdaptorStringToChar adaptor;
+        Queue<string[]> strings;
         public CSVParser(string filePath)
         {
             storage = DataStorage.Instance;
             parser = new TextFieldParser (filePath);
+            strings = new Queue<string[]> ();
             
 
         }
 
         public void ConverterToCharacter()
         {
-            int sucessCounter = 0;
-            int skipCounter = 0;
+
             parser.TextFieldType = FieldType.Delimited;
             parser.SetDelimiters(",");
             while (!parser.EndOfData)
             {
                 string[] stringData = parser.ReadFields();
+                strings.Enqueue(stringData);
+            }
+            CharaterConversion(strings);
+        }
+        public void CharaterConversion(Queue<string[]>strings) {
+                int sucessCounter = 0;
+                int skipCounter = 0;
+                int count = strings.Count;
+            for (int i = 0; i < count; i++)
+            {
                 try
                 {
-                    adaptor = new Adaptor();
-                    string race = stringData[0];
-                    string clazz = stringData[1];
-                    string abilities = stringData[2];
-                    string appearance = stringData[3];
-                    storage.CharacterList.Add( adaptor.StringToCharater(race, clazz, abilities,appearance));
+                    string[] stringData = strings.Dequeue();
+                    if(stringData[0] == "Race"&& stringData[1] == "Class"&& stringData[2]=="Ability"&&stringData[3]=="Appearance")
+                    {
+                        continue;
+                    }
+                    adaptor = new AdaptorStringToChar();
+                    storage.CharacterList.Add(adaptor.StringToCharater(stringData[0], stringData[1], stringData[2], stringData[3]));
                     sucessCounter++;
                 }
                 catch
-                { 
+                {
                     skipCounter++;
                 }
             }
-            MessageBox.Show($"Sucess Record: {sucessCounter}\nSkip Record:{skipCounter}","info",MessageBoxButtons.OK,MessageBoxIcon.Information);
+
+            MessageBox.Show($"Sucess Record: {sucessCounter}\nSkip Record:{skipCounter}", "info", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

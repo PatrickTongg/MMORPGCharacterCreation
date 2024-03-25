@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RpgCharaterCreation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bacc4edabc577cdb73bfa6f6afaf1d050fbc1a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b5c59bdb51997616b81ee218fe6de98429da60c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RpgCharaterCreation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RpgCharaterCreation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

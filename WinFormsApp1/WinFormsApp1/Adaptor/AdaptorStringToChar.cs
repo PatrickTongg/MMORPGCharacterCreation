@@ -7,10 +7,10 @@ using RpgCharaterCreation;
 
 namespace RpgCharaterCreation.Builder
 {
-    public class Adaptor:Builder
+    public class AdaptorStringToChar : Builder
     {
         Builder adaptor;
-        public Adaptor()
+        public AdaptorStringToChar()
         { 
             adaptor = new Builder();
         }
@@ -18,6 +18,6 @@ namespace RpgCharaterCreation.Builder
         public Character StringToCharater(string race, string clazz, string ability, string appearance)
         {
             return adaptor.setRace(race).setClazz(clazz).setAbility(ability).setAppearance(appearance).build();
-        } 
+        }
     }
 }

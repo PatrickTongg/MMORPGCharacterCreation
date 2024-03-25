@@ -25,7 +25,7 @@ namespace RpgCharaterCreation.Prototype
 
         public HumanAbilities()
         {
-            AbilityType = "HumanAbility";
+            AbilityType = "HumanAbilities";
             Spells = new List<Spell>();
             Spells.Add (new Spell("Decisive Strike", 150, 0, 8));
             Spells.Add(new Spell("Courage", 0, 0, 15));

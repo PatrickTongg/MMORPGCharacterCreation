@@ -25,7 +25,6 @@ namespace RpgCharaterCreation.Prototype
     public class Attire : Appearances
     {
         string color;
-        string TypeName;
         public Attire()
         {
             color = "red";
@@ -36,7 +35,6 @@ namespace RpgCharaterCreation.Prototype
     {
         bool Mushstach;
         bool scar;
-        string TypeName;
         public Facialfeature()
         {
             Mushstach = false;

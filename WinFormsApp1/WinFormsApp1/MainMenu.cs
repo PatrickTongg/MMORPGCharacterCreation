@@ -76,5 +76,22 @@ namespace RpgCharaterCreation
 
             DisplayCharater();
         }
+
+        private void exportCSVBtn_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+
+            saveFileDialog1.Filter = "csv files (*.csv)|*.csv|All files (*.*)|*.*";
+            saveFileDialog1.FilterIndex = 2;
+            saveFileDialog1.RestoreDirectory = true;
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                    string filePath = saveFileDialog1.FileName;
+                    CSVExporter exporter = new CSVExporter(filePath);
+                    exporter.exportCSV();
+
+            }
+        }
     }
 }
