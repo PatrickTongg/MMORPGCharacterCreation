@@ -28,7 +28,7 @@ namespace RpgCharaterCreation
             ElfClazzPic.Visible = false;
             DwafClassPic.Visible = false;
             OrchishClazzPic.Visible = false;
-            if( ch.ability.AbilityType == "HumanAbility")
+            if( ch.ability.AbilityType == "HumanAbilities")
             {
                 HumanClazzPic.Visible = true;
             }
