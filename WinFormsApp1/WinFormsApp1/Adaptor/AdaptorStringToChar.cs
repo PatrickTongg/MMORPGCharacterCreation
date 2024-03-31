@@ -7,17 +7,25 @@ using RpgCharaterCreation;
 
 namespace RpgCharaterCreation.Builder
 {
-    public class AdaptorStringToChar : Builder
+    public class AdaptorStringToChar: Character
     {
         Builder adaptor;
-        public AdaptorStringToChar()
+        string[] attr;
+        public AdaptorStringToChar(string []attr)
         { 
-            adaptor = new Builder();
+            this.attr = attr;
+            this.adaptor = new Builder();
+            StringToCharacter();
         }
 
-        public Character StringToCharater(string race, string clazz, string ability, string appearance)
+        public void StringToCharacter()
         {
-            return adaptor.setRace(race).setClazz(clazz).setAbility(ability).setAppearance(appearance).build();
+            Character ch =  adaptor.setRace(attr[0]).setClazz(attr[1]).setAbility(attr[2]).setAppearance(attr[3]).build();
+            race = ch.race;
+            clazz = ch.clazz;
+            ability = ch.ability;
+            appearances = ch.appearances;
+
         }
     }
 }

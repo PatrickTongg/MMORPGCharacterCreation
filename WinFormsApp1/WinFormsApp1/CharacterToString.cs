@@ -77,5 +77,10 @@ namespace RpgCharaterCreation
             return output;
         }
 
+        public string ConvertCharacterToString(Character ch)
+        {
+            return InputCharater(ch).RaceRevert().ClazzRevert().AbilityRevert().ApperancesRevert().buildString();
+        }
+
     }
 }

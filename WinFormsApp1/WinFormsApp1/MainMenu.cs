@@ -29,7 +29,7 @@ namespace RpgCharaterCreation
             {
                 foreach (Character character in storage.CharacterList)
                 {
-                    listBox1.Items.Add(character.ToString());
+                    listBox1.Items.Add(character.DisplayInfo());
                 }
             }
         }

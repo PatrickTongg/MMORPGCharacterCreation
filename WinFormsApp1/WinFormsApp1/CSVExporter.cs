@@ -1,4 +1,4 @@
-﻿using RpgCharaterCreation.Adaptor;
+﻿using RpgCharaterCreation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,11 +23,9 @@ namespace RpgCharaterCreation
             var csv = new StringBuilder();
             for (int i =0;i< characterList.Count;i++)
             {
-                try
-                {
-                    AdaptorCharactorToString adaptor = new AdaptorCharactorToString();
-                    string stringData = adaptor.ConvertCharacterToString(characterList[i]);
-                    csv.AppendLine(stringData);
+                try { 
+                
+                    csv.AppendLine(characterList[i].ToString());
                 }
                 catch
                 {

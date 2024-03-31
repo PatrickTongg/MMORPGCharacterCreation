@@ -35,6 +35,7 @@ namespace RpgCharaterCreation
             }
             CharaterConversion(strings);
         }
+       
         public void CharaterConversion(Queue<string[]>strings) {
                 int sucessCounter = 0;
                 int skipCounter = 0;
@@ -48,8 +49,8 @@ namespace RpgCharaterCreation
                     {
                         continue;
                     }
-                    adaptor = new AdaptorStringToChar();
-                    storage.CharacterList.Add(adaptor.StringToCharater(stringData[0], stringData[1], stringData[2], stringData[3]));
+                    adaptor = new AdaptorStringToChar(stringData);
+                    storage.CharacterList.Add(adaptor);
                     sucessCounter++;
                 }
                 catch

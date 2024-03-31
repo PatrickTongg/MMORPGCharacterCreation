@@ -8,17 +8,22 @@ using RpgCharaterCreation.Prototype;
 
 namespace RpgCharaterCreation
 {
-    public class Character
+    public class Character:CharacterToString
     {
         public Clazz clazz { get; set; }
         public Race race { get; set; }
         public Ability ability { get; set; }
         public Appearances appearances { get; set; }
 
-        public override string ToString()
+        public string DisplayInfo()
         {
             return $"Race: {race.Name}  Class:{clazz.ClazzName}";
         }
+        public override string ToString()
+        {
+            return ConvertCharacterToString(this);
+        }
+
 
     }
 }
