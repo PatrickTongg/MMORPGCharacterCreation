@@ -23,25 +23,25 @@ namespace RpgCharaterCreation
 
         private void humanBtn_Click(object sender, EventArgs e)
         {
-            builder.setRace("HUM");
+            builder.SetRace("HUM");
             openForm();
         }
 
         private void dwarvenBtn_Click(object sender, EventArgs e)
         {
-            builder.setRace("DWA");
+            builder.SetRace("DWA");
             openForm();
         }
 
         private void elvenBtn_Click(object sender, EventArgs e)
         {
-            builder.setRace("ELV");
+            builder.SetRace("ELV");
             openForm();
         }
 
         private void orcishBtn_Click(object sender, EventArgs e)
         {
-            builder.setRace("ORC");
+            builder.SetRace("ORC");
             openForm();
         }
 

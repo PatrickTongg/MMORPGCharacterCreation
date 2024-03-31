@@ -16,24 +16,24 @@ namespace WinFormsApp1
         public CharacterCreationFomr(IBuilder builder) : this()
         {
             this.builder = builder;
-            if (builder.build().appearances != null)
+            if (builder.Build().appearances != null)
             {
-                appearanceLabel.Text += builder.build().appearances.Description;
+                appearanceLabel.Text += builder.Build().appearances.Description;
                 appearanceRadioBtn.Enabled = false;
             }
-            if (builder.build().clazz != null)
+            if (builder.Build().clazz != null)
             {
-                classLabel.Text += builder.build().clazz.ClazzName;
+                classLabel.Text += builder.Build().clazz.ClazzName;
                 classRadioBtn.Enabled = false;
             }
-            if(builder.build().ability != null)
+            if(builder.Build().ability != null)
             {
-                abilitiesLabel.Text += builder.build().ability.AbilityType;
+                abilitiesLabel.Text += builder.Build().ability.AbilityType;
                 abilitiesRadioBtn.Enabled = false;
             }
-            if(builder.build().race != null)
+            if(builder.Build().race != null)
             {
-                raceLabel.Text += builder.build().race.Name;
+                raceLabel.Text += builder.Build().race.Name;
                 raceRadioBtn.Enabled = false; 
             }
 
@@ -100,7 +100,7 @@ namespace WinFormsApp1
 
         private void createBtn_Click(object sender, EventArgs e)
         {
-            ViewPlayer viewPlayer = new ViewPlayer(builder.build(), false);
+            ViewPlayer viewPlayer = new ViewPlayer(builder.Build(), false);
             viewPlayer.Show();
             this.Hide();
         }

@@ -10,24 +10,24 @@ namespace RpgCharaterCreation
 {
     internal class Model:IModel
     {
-        public override Race createRace(string Key)
+        public override Race CreateRace(string Key)
         {
             RaceFactory factory = new RaceFactory();
             return factory.CreateRace(Key).Clone();
         }
 
-        public override Clazz createClazz(string Key)
+        public override Clazz CreateClazz(string Key)
         {
             ClassFactory factory = new ClassFactory();
             return factory.CreateClass(Key).Clone();
         }
 
-        public override Appearances createAppearance(string Key)
+        public override Appearances CreateAppearance(string Key)
         {
             AppearanceFactory factory = new AppearanceFactory();
             return factory.CreateAppearance(Key).Clone();
         }
-        public override Ability createAbility(string Key)
+        public override Ability CreateAbility(string Key)
         {
             AbilityFactory factory = new AbilityFactory();
             return factory.CreateAbility(Key).Clone();

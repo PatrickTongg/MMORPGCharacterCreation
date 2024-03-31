@@ -44,35 +44,34 @@ namespace RpgCharaterCreation
             
             this.output =string.Empty;
         }
-        public CharacterToString InputCharater(Character ch)
+        private CharacterToString InputCharater(Character ch)
         {
             this.ch = ch ;
             return this;
         }
 
-
-        public CharacterToString RaceRevert()
+        private CharacterToString RaceRevert()
         {
             output += $"{RaceDict[ch.race.Name]},";
             return this;
         }
-        public CharacterToString ClazzRevert()
+        private CharacterToString ClazzRevert()
         {
             output += $"{ClazzDict[ch.clazz.ClazzName]},";
             return this;
         }
 
-        public CharacterToString AbilityRevert()
+        private CharacterToString AbilityRevert()
         {
             output += $"{AbilityDict[ch.ability.AbilityType]},";
             return this;
         }
-        public CharacterToString ApperancesRevert()
+        private CharacterToString ApperancesRevert()
         {
             output += $"{AppearanceDict[ch.appearances.ToString()]},";
             return this;
         }
-        public string buildString()
+        private string buildString()
         {
             return output;
         }

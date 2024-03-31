@@ -9,7 +9,7 @@ namespace RpgCharaterCreation
     public class DataStorage
     {
         public List<Character> CharacterList;
-        public static DataStorage instance { get; private set; }
+        private static DataStorage instance { get; set; }
 
         private DataStorage()
         { 

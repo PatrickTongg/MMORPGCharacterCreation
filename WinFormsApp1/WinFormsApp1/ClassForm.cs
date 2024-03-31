@@ -25,25 +25,25 @@ namespace RpgCharaterCreation
 
         private void warriorBtn_Click(object sender, EventArgs e)
         {
-            builder.setClazz("WAR");
+            builder.SetClazz("WAR");
             openForm();
         }
 
         private void mageBtn_Click(object sender, EventArgs e)
         {
-            builder.setClazz("MAG");
+            builder.SetClazz("MAG");
             openForm();
         }
 
         private void rogueBtn_Click(object sender, EventArgs e)
         {
-            builder.setClazz("ROG");
+            builder.SetClazz("ROG");
             openForm();
         }
 
         private void clericBtn_Click(object sender, EventArgs e)
         {
-            builder.setClazz("WAR");
+            builder.SetClazz("WAR");
             openForm();
         }
 

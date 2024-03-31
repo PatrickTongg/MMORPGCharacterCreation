@@ -16,28 +16,28 @@ namespace RpgCharaterCreation.Builder
             ch = new Character();
             model = new Model();
         }
-        public IBuilder setAbility(string Key)
+        public IBuilder SetAbility(string Key)
         {
-            ch.ability = model.createAbility(Key);
+            ch.ability = model.CreateAbility(Key);
             return this;
         }
-        public IBuilder setClazz(string Key)
+        public IBuilder SetClazz(string Key)
         {
-            ch.clazz = model.createClazz(Key);
+            ch.clazz = model.CreateClazz(Key);
             return this;
         }
-        public IBuilder setAppearance(string Key)
+        public IBuilder SetAppearance(string Key)
         {
-            ch.appearances = model.createAppearance(Key);
+            ch.appearances = model.CreateAppearance(Key);
             return this;
         }
-        public IBuilder setRace(string Key)
+        public IBuilder SetRace(string Key)
         {
-            ch.race = model.createRace(Key);
+            ch.race = model.CreateRace(Key);
             return this;
         }
 
-        public Character build()
+        public Character Build()
         {
             return ch;
         }

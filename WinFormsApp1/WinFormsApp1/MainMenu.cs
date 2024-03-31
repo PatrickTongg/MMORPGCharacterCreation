@@ -18,10 +18,10 @@ namespace RpgCharaterCreation
         public MainMenu()
         {
             InitializeComponent();
-            DisplayCharater();
+            DisplayCharacter();
         }
 
-        private void DisplayCharater()
+        private void DisplayCharacter()
         {
             storage = DataStorage.Instance;
             listBox1.Items.Clear();
@@ -34,14 +34,14 @@ namespace RpgCharaterCreation
             }
         }
 
-        private void createCharaterBtn_Click(object sender, EventArgs e)
+        private void CreateCharacterBtn_Click(object sender, EventArgs e)
         {
             CharacterCreationFomr characterCreationFomr = new CharacterCreationFomr();
             characterCreationFomr.Show();
             this.Hide();
         }
 
-        private void viewCharaterBtn_Click(object sender, EventArgs e)
+        private void ViewCharacterBtn_Click(object sender, EventArgs e)
         {
             storage = DataStorage.Instance;
             int index = listBox1.SelectedIndex;
@@ -58,12 +58,12 @@ namespace RpgCharaterCreation
             }
         }
 
-        private void exitBtn_Click(object sender, EventArgs e)
+        private void ExitBtn_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void importCSVBtn_Click(object sender, EventArgs e)
+        private void ImportCSVBtn_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
 
@@ -74,10 +74,10 @@ namespace RpgCharaterCreation
                 parser.ConverterToCharacter();
             }
 
-            DisplayCharater();
+            DisplayCharacter();
         }
 
-        private void exportCSVBtn_Click(object sender, EventArgs e)
+        private void ExportCSVBtn_Click(object sender, EventArgs e)
         {
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
 
@@ -89,7 +89,7 @@ namespace RpgCharaterCreation
             {
                     string filePath = saveFileDialog1.FileName;
                     CSVExporter exporter = new CSVExporter(filePath);
-                    exporter.exportCSV();
+                    exporter.ExportCSV();
 
             }
         }

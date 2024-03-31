@@ -9,12 +9,10 @@ namespace RpgCharaterCreation.Factories
 {
     public abstract class IModel
     {
-        public abstract Race createRace(string Key);
-
-        public abstract Clazz createClazz(string Key);
-
-        public abstract Appearances createAppearance(string Key);
-        public abstract Ability createAbility(string Key);
+        public abstract Race CreateRace(string Key);
+        public abstract Clazz CreateClazz(string Key);
+        public abstract Appearances CreateAppearance(string Key);
+        public abstract Ability CreateAbility(string Key);
 
 
     }

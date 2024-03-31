@@ -9,15 +9,15 @@ namespace RpgCharaterCreation
 {
     internal class CSVExporter
     {
-        DataStorage storage;
-        string filePath;
+        private DataStorage storage;
+        private string filePath;
         
         public CSVExporter(string path) 
         {
             storage = DataStorage.Instance;
             filePath = path;
         }
-        public void exportCSV()
+        public void ExportCSV()
         {
             List<Character> characterList = storage.CharacterList;
             var csv = new StringBuilder();

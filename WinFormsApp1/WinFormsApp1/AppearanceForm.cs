@@ -23,19 +23,19 @@ namespace RpgCharaterCreation
 
         private void hairBtn_Click(object sender, EventArgs e)
         {
-            builder.setAppearance("HAIR");
+            builder.SetAppearance("HAIR");
             openForm();
         }
 
         private void attireBtn_Click(object sender, EventArgs e)
         {
-            builder.setAppearance("ATTIRE");
+            builder.SetAppearance("ATTIRE");
             openForm(); 
         }
 
         private void facialBtn_Click(object sender, EventArgs e)
         {
-            builder.setAppearance("FACE");
+            builder.SetAppearance("FACE");
             openForm();
         }
 

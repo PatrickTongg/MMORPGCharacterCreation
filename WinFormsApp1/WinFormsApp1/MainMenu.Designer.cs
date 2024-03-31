@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            createCharaterBtn = new Button();
+            createCharacterBtn = new Button();
             importCSVBtn = new Button();
-            viewCharaterBtn = new Button();
+            viewCharacterBtn = new Button();
             exportCSVBtn = new Button();
             exitBtn = new Button();
             listBox1 = new ListBox();
             SuspendLayout();
             // 
-            // createCharaterBtn
+            // createCharacterBtn
             // 
-            createCharaterBtn.Location = new Point(12, 378);
-            createCharaterBtn.Name = "createCharaterBtn";
-            createCharaterBtn.Size = new Size(101, 43);
-            createCharaterBtn.TabIndex = 0;
-            createCharaterBtn.Text = "Create Charater";
-            createCharaterBtn.UseVisualStyleBackColor = true;
-            createCharaterBtn.Click += createCharaterBtn_Click;
+            createCharacterBtn.Location = new Point(12, 378);
+            createCharacterBtn.Name = "createCharacterBtn";
+            createCharacterBtn.Size = new Size(101, 43);
+            createCharacterBtn.TabIndex = 0;
+            createCharacterBtn.Text = "Create Charater";
+            createCharacterBtn.UseVisualStyleBackColor = true;
+            createCharacterBtn.Click += CreateCharacterBtn_Click;
             // 
             // importCSVBtn
             // 
@@ -54,17 +54,17 @@
             importCSVBtn.TabIndex = 1;
             importCSVBtn.Text = "Import CSV";
             importCSVBtn.UseVisualStyleBackColor = true;
-            importCSVBtn.Click += importCSVBtn_Click;
+            importCSVBtn.Click += ImportCSVBtn_Click;
             // 
-            // viewCharaterBtn
+            // viewCharacterBtn
             // 
-            viewCharaterBtn.Location = new Point(449, 308);
-            viewCharaterBtn.Name = "viewCharaterBtn";
-            viewCharaterBtn.Size = new Size(75, 43);
-            viewCharaterBtn.TabIndex = 3;
-            viewCharaterBtn.Text = "View Charater";
-            viewCharaterBtn.UseVisualStyleBackColor = true;
-            viewCharaterBtn.Click += viewCharaterBtn_Click;
+            viewCharacterBtn.Location = new Point(449, 308);
+            viewCharacterBtn.Name = "viewCharacterBtn";
+            viewCharacterBtn.Size = new Size(75, 43);
+            viewCharacterBtn.TabIndex = 3;
+            viewCharacterBtn.Text = "View Charater";
+            viewCharacterBtn.UseVisualStyleBackColor = true;
+            viewCharacterBtn.Click += ViewCharacterBtn_Click;
             // 
             // exportCSVBtn
             // 
@@ -74,7 +74,7 @@
             exportCSVBtn.TabIndex = 4;
             exportCSVBtn.Text = "Export CSV";
             exportCSVBtn.UseVisualStyleBackColor = true;
-            exportCSVBtn.Click += exportCSVBtn_Click;
+            exportCSVBtn.Click += ExportCSVBtn_Click;
             // 
             // exitBtn
             // 
@@ -84,7 +84,7 @@
             exitBtn.TabIndex = 5;
             exitBtn.Text = "Exit";
             exitBtn.UseVisualStyleBackColor = true;
-            exitBtn.Click += exitBtn_Click;
+            exitBtn.Click += ExitBtn_Click;
             // 
             // listBox1
             // 
@@ -103,9 +103,9 @@
             Controls.Add(listBox1);
             Controls.Add(exitBtn);
             Controls.Add(exportCSVBtn);
-            Controls.Add(viewCharaterBtn);
+            Controls.Add(viewCharacterBtn);
             Controls.Add(importCSVBtn);
-            Controls.Add(createCharaterBtn);
+            Controls.Add(createCharacterBtn);
             Name = "MainMenu";
             Text = "MainMenu";
             ResumeLayout(false);
@@ -113,9 +113,9 @@
 
         #endregion
 
-        private Button createCharaterBtn;
+        private Button createCharacterBtn;
         private Button importCSVBtn;
-        private Button viewCharaterBtn;
+        private Button viewCharacterBtn;
         private Button exportCSVBtn;
         private Button exitBtn;
         private ListBox listBox1;

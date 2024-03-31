@@ -20,7 +20,7 @@ namespace RpgCharaterCreation.Builder
 
         public void StringToCharacter()
         {
-            Character ch =  adaptor.setRace(attr[0]).setClazz(attr[1]).setAbility(attr[2]).setAppearance(attr[3]).build();
+            Character ch =  adaptor.SetRace(attr[0]).SetClazz(attr[1]).SetAbility(attr[2]).SetAppearance(attr[3]).Build();
             race = ch.race;
             clazz = ch.clazz;
             ability = ch.ability;
